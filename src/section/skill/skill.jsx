@@ -85,7 +85,7 @@ const SkillSection = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, delay: 0.5 }}
                   >
-                    <img src={logo} alt={skill} className="w-8 h-8" />
+                    <img src={logo} alt={skill} crossOrigin="anonymous" className="w-8 h-8" />
                     <div className="w-full">
                       <div className="flex text-[var(--text-color)] justify-between text-sm font-medium mb-1">
                         <span>{skill}</span>
@@ -149,6 +149,7 @@ const SkillSection = () => {
                     <img
                       src={skill.logo}
                       alt={skill.name}
+                      crossOrigin="anonymous"
                       className="w-12 h-14 mb-2"
                     />
                     <span className="text-lg font-medium">{skill.skill}</span>

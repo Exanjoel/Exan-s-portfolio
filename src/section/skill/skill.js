@@ -6,7 +6,7 @@ export const programSkillSet = [
   },
   { skill: "HTML", level: 95, logo: "/public/html5svgrepocom.svg" },
   { skill: "CSS", level: 80, logo: "/public/css3svgrepocom.svg" },
-  { skill: "SQL", level: 65, logo: "/public/logo/icons8sql48(1).png" },
+  { skill: "SQL", level: 65, logo: "/public/logo/icons8sql48 (1).png" },
   {
     skill: "Machine Learning",
     level: 35,
