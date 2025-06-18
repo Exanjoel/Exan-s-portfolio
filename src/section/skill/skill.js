@@ -6,7 +6,7 @@ export const programSkillSet = [
   },
   { skill: "HTML", level: 95, logo: "/html5svgrepocom.svg" },
   { skill: "CSS", level: 80, logo: "/css3svgrepocom.svg" },
-  { skill: "SQL", level: 65, logo: "/logo/icons8sql48 (1).png" },
+  { skill: "SQL", level: 65, logo: "/logo/icons8sql48(1).png" },
   {
     skill: "Machine Learning",
     level: 35,
@@ -21,33 +21,33 @@ export const programSkillSet = [
 
 export const techSkillSet = [
   // Frontend
-  { skill: "React", logo: "/public/react1logosvgrepocom.svg", type: "frontend" },
-  { skill: "HTML", logo: "/public/html5svgrepocom.svg", type: "frontend" },
-  { skill: "CSS", logo: "/public/css3svgrepocom.svg", type: "frontend" },
-  { skill: "Tailwind CSS", logo: "/public/logo/tailwindcssicon.svg", type: "frontend" },
-  { skill: "Bootstrap CSS", logo: "/public/logo/icons8bootstrap.svg", type: "frontend" },
-  { skill: "Redux", logo: "/public/logo/icons8redux.svg", type: "frontend" },
-  { skill: "NextJS", logo: "/public/logo/nextdotjs.svg", type: "frontend" },
-  { skill: "ThreeJS", logo: "/public/logo/Threejslogo.svg", type: "frontend" },
+  { skill: "React", logo: "/react1logosvgrepocom.svg", type: "frontend" },
+  { skill: "HTML", logo: "/html5svgrepocom.svg", type: "frontend" },
+  { skill: "CSS", logo: "/css3svgrepocom.svg", type: "frontend" },
+  { skill: "Tailwind CSS", logo: "/logo/tailwindcssicon.svg", type: "frontend" },
+  { skill: "Bootstrap CSS", logo: "/logo/icons8bootstrap.svg", type: "frontend" },
+  { skill: "Redux", logo: "/logo/icons8redux.svg", type: "frontend" },
+  { skill: "NextJS", logo: "/logo/nextdotjs.svg", type: "frontend" },
+  { skill: "ThreeJS", logo: "/logo/Threejslogo.svg", type: "frontend" },
 
   // Backend
-  { skill: "NodeJS", logo: "/public/nodejs1logosvgrepocom.svg", type: "backend" },
-  { skill: "ExpressJS", logo: "/public/logo/express.svg", type: "backend" },
+  { skill: "NodeJS", logo: "/nodejs1logosvgrepocom.svg", type: "backend" },
+  { skill: "ExpressJS", logo: "/logo/express.svg", type: "backend" },
 
   // Database
-  { skill: "MongoDB", logo: "/public/mongodbsvgrepocom.svg", type: "database" },
-  { skill: "SQL", logo: "/public/logo/icons8sql48 (1).png", type: "database" },
+  { skill: "MongoDB", logo: "/mongodbsvgrepocom.svg", type: "database" },
+  { skill: "SQL", logo: "/logo/icons8sql48(1).png", type: "database" },
 
   // Design
-  { skill: "Photoshop", logo: "/public/logo/icons8photoshop.svg", type: "design" },
-  { skill: "Figma", logo: "/public/logo/icons8figma.svg", type: "design" },
-  { skill: "Canva", logo: "/public/logo/icons8canva.svg", type: "design" },
+  { skill: "Photoshop", logo: "/logo/icons8photoshop.svg", type: "design" },
+  { skill: "Figma", logo: "/logo/icons8figma.svg", type: "design" },
+  { skill: "Canva", logo: "/logo/icons8canva.svg", type: "design" },
 
   // Tools & Miscellaneous
-  { skill: "Git", logo: "/public/logo/icons8git.svg", type: "tools" },
-  { skill: "Jupyter Notebook", logo: "/public/logo/icons8jupyter.svg", type: "tools" },
-  { skill: "Pycharm", logo: "/public/logo/icons8pycharm.svg", type: "tools" },
-  { skill: "Anaconda", logo: "/public/logo/icons8anaconda.svg", type: "tools" },
-  { skill: "Android Studio", logo: "/public/logo/icons8androidstudio.svg", type: "tools" },
-  { skill: "Flutter", logo: "/public/logo/icons8flutter.svg", type: "tools" }
+  { skill: "Git", logo: "/logo/icons8git.svg", type: "tools" },
+  { skill: "Jupyter Notebook", logo: "/logo/icons8jupyter.svg", type: "tools" },
+  { skill: "Pycharm", logo: "/logo/icons8pycharm.svg", type: "tools" },
+  { skill: "Anaconda", logo: "/logo/icons8anaconda.svg", type: "tools" },
+  { skill: "Android Studio", logo: "/logo/icons8androidstudio.svg", type: "tools" },
+  { skill: "Flutter", logo: "/logo/icons8flutter.svg", type: "tools" }
 ];
