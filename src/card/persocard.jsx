@@ -53,6 +53,7 @@ const Card = () => {
           src="/exan_profile.jpg"
           alt="Profile"
           className="w-48 sm:w-56 md:w-64 lg:w-72 h-48 sm:h-56 md:h-64 lg:h-72 object-cover rounded-xl shadow-lg"
+          crossOrigin="anonymous"
         />
       </div>
 
