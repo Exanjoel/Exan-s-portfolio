@@ -13,7 +13,7 @@ import { Typewriter } from "react-simple-typewriter";
 const Card = () => {
   return (
     <motion.div
-      className="flex flex-col justify-between min-h-screen sm:min-h-fit rounded-3xl p-6 w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl text-center border border-gray-600 shadow-lg mx-auto bg-[var(--bg-color)]"
+      className="flex flex-col justify-between h-fit sm:h-full rounded-3xl p-6 w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl text-center border border-gray-600 shadow-lg mx-auto bg-[var(--bg-color)]"
       initial={{ opacity: 0, x: -100 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 1 }}
