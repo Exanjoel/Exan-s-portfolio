@@ -27,7 +27,7 @@ function App() {
             className="fixed top-4 right-4 md:right-8 z-50 lg:hidden w-12 h-12 border-3 border-[var(--text-color2)] rounded-full overflow-hidden bg-[var(--bg-color)] shadow-lg hover:scale-105 transition"
           >
             <img
-              src="/IMG_20240707_111635614_PORTRAIT 03 (1).jpg"
+              src="/exanprofile.jpg"
               alt="User Avatar"
               className="w-full h-full object-cover"
             />
