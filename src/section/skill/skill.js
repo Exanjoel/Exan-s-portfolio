@@ -2,20 +2,20 @@ export const programSkillSet = [
   {
     skill: "Javascript",
     level: 80,
-    logo: "/public/javascriptsvgrepocom.svg",
+    logo: "/javascriptsvgrepocom.svg",
   },
-  { skill: "HTML", level: 95, logo: "/public/html5svgrepocom.svg" },
-  { skill: "CSS", level: 80, logo: "/public/css3svgrepocom.svg" },
-  { skill: "SQL", level: 65, logo: "/public/logo/icons8sql48 (1).png" },
+  { skill: "HTML", level: 95, logo: "/html5svgrepocom.svg" },
+  { skill: "CSS", level: 80, logo: "/css3svgrepocom.svg" },
+  { skill: "SQL", level: 65, logo: "/logo/icons8sql48 (1).png" },
   {
     skill: "Machine Learning",
     level: 35,
-    logo: "/public/tensorflowsvgrepocom.svg",
+    logo: "/tensorflowsvgrepocom.svg",
   },
   {
     skill: "Python",
     level: 25,
-    logo: "/public/pythonicon.svg",
+    logo: "/pythonicon.svg",
   },
 ];
 
