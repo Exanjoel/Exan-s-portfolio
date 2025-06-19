@@ -9,6 +9,7 @@ import Educationsection from "./section/education/Educationsection";
 import SkillSection from "./section/skill/skill.jsx";
 import Contact from "./section/contact/contact.jsx";
 import ProjectSection from "./section/project/project.jsx";
+import SettingIcon from "./card/settingIcon.jsx";
 
 function App() {
   const [showCard, setShowCard] = useState(false);
@@ -32,6 +33,9 @@ function App() {
               className="w-full h-full object-cover"
             />
           </button>
+          <div className="md:hidden absolute top-8 left-1">
+            <SettingIcon />
+          </div>
 
           {/* Personal Card - mobile toggle */}
           {

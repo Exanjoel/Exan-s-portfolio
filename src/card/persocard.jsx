@@ -19,7 +19,7 @@ const Card = () => {
       transition={{ duration: 1 }}
     >
       {/* Header Section */}
-      <div className=" md:flex justify-between items-center mb-6 w-full">
+      <div className="md:block hidden md:flex justify-between items-center mb-6 w-full">
         <div className="absolute top-15 left-0">
           <SettingIcon />
         </div>

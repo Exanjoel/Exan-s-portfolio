@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import SectionHead from "../section";
 import { Contact2 } from "lucide-react";
 import { motion } from "framer-motion";
 import { useForm } from "react-hook-form";
 import { FaPaperPlane } from "react-icons/fa";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const {
@@ -11,13 +12,46 @@ const Contact = () => {
     handleSubmit,
     formState: { errors },
   } = useForm();
+const [showSuccess, setShowSuccess] = useState(false);
 
-  const onSubmit = (data) => {
-    console.log("Form Submitted:", data);
+  const onSubmit = async (data) => {
+    const templateParams = {
+      first_name: data.firstName,
+      last_name: data.lastName,
+      email: data.email,
+      phone: data.phone,
+      message: data.message,
+    };
+
+ try {
+  const result = await emailjs.send(
+    "service_euinzjg",
+    "template_xdb6xji",
+    templateParams,
+    "-hYthxIVvuo4DQOBp"
+  );
+
+  setShowSuccess(true);
+  setTimeout(() => setShowSuccess(false), 2000); // Hide after 2 sec
+} catch (error) {
+  console.error("Email sending error:", error);
+  alert("Failed to send message. Please try again.");
+}
   };
 
   return (
     <div className="w-full max-w-6xl mx-auto px-4 md:px-8">
+      {showSuccess && (
+        <motion.div
+          initial={{ opacity: 0, y: -10 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -10 }}
+          className="fixed top-5 right-5 bg-green-500 text-white px-4 py-2 rounded shadow-md z-50"
+        >
+          📧 Message sent successfully!
+        </motion.div>
+      )}
+
       <SectionHead title={"contact"} icon={<Contact2 />} />
 
       <motion.h1
